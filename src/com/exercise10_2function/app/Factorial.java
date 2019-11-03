@@ -21,7 +21,7 @@ public class Factorial {
 		}while(number < 0);
 		
 		factorial = GiveFactorial(number);
-		System.out.format("The \"factorial\" of %d is %d, \nwhich is gotten by multiplying seval times %d",number,factorial, number);
+		System.out.format("The \"factorial\" of %d is %d, \nwhich is gotten by multiplying several times %d",number,factorial, number);
 		scan.close();
 	}
 	// Method 'GiveFactorial' 
